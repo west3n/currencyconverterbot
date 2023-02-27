@@ -4,4 +4,4 @@
 * Create an API KEY for yourself on [Open Exchange Rates](https://openexchangerates.org/).
 * Replace **"YOUR_TOKEN_HERE"** with your actual token and replace **"YOUR_KEY_HERE"** with your actual OER key in the **.env.example** file. Then rename **.env.example** to **.env.**
 * Install all the required libraries by running `pip install -r requirements.txt`.
-### If you want to change the list of currencies, you can do so in the [inline.py](keyboards/inline.py) file by replacing the name of currency and its lowercase [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) code.
+### If you want to change the list of currencies, you can do so in the [inline.py](keyboards/inline.py) file by replacing the name of currency and its lowercase [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) code. Also, update cur_list in [config.py](config/config.py) file.
